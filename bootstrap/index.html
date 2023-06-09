@@ -1,12 +1,165 @@
+<!-- 
+=================================================================
+R4 Autos - Proyecto académico de página web para Venta de Autos Personalizables
+Desarrollado por:
+    Leonardo Gonzalez Malvestiti
+    Damian Landa.
+    Didier Oliva.
+    Milton Guzmal Allais.
+Versión: 1.0
+Última actualización: [06-05-23]
+=================================================================
+-->
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R4 Autos</title>
   <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <body>
+    <header>
+      <!-- Menú horizontal -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">R4 Autos</a>
   
+          <!-- Botón de hamburguesa para colapsar el menú en dispositivos móviles -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Contenido del menú -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vehículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Financiación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Posventa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+  <!-- Contenido principal -->
+  <main>
+
+
+    
+    <!-- Introducción -->
+<section class="container border-bottom">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <p> </p>
+        <p>Bienvenido a R4 Autos, tu destino para personalizar y adquirir tu propio auto nuevo. Aquí puedes encontrar una amplia selección de modelos de automóviles de diferentes marcas, desde deportivos elegantes hasta vehículos familiares espaciosos.</p>
+        <p>Conocemos la importancia de tener un auto que se adapte a tus necesidades y gustos. Es por eso que te brindamos la oportunidad de personalizar diversos aspectos de tu vehículo, como el rango, el motor, el color, las llantas y mucho más. Puedes crear el automóvil de tus sueños con solo unos clics.</p>
+      
+        <button class="btn btn-primary">Botón Primario</button>
+        <a href="#" class="btn btn-primary">Enlace como Botón</a>
+        <button class="btn btn-secondary">Botón Secundario</button>
+        <button class="btn btn-success">Botón de Éxito</button>
+        <button class="btn btn-danger">Botón de Peligro</button>
+      </div>
+    </div>
+  </section>
+  
+  <button class="btn btn-primary">Botón Primario</button>
+
+
+<!-- Carrusel -->
+<section id="carousel" class="container border-bottom">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10s">
+        <div id="car-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#car-carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#car-carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#car-carousel" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img class="d-block mx-auto" src="img/automovil1.png" alt="Automóvil 1">
+            </div>
+            <div class="carousel-item text-center">
+              <img class="d-block mx-auto" src="img/automovil2.png" alt="Automóvil 2">
+            </div>
+            <div class="carousel-item text-center">
+              <img class="d-block mx-auto" src="img/automovil3.png" alt="Automóvil 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#car-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#car-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="container">
+    <div class="row">
+  
+      <!-- Introducción -->
+      <div class="col-lg-4 d-flex">
+        <section>
+          <h2>Descubre una amplia selección de autos nuevos</h2>
+          <img src="img/autos.jpg" alt="Amplia variedad">
+          <p>Nuestro equipo se asegura de mantener una amplia variedad de modelos y versiones de cada marca para que puedas encontrar el auto que se adapte a tus necesidades y preferencias. Explora nuestra selección de autos nuevos y encuentra el vehículo que refleje tu estilo de vida y personalidad.</p>
+        </section>
+      </div>
+  
+       
+      <!-- Cotización y Financiamiento -->
+      <div class="col-lg-4 d-flex">
+        <section>
+          <h2>Acceso a financiamiento</h1>
+          <img src="img/financiamiento.jpg" alt="Amplia variedad">
+          <p>Además de brindarte una amplia selección de vehículos de alta calidad, también te ofrecemos acceso a opciones de financiamiento flexibles y convenientes. Entendemos que cada persona tiene necesidades y circunstancias financieras únicas, por lo que trabajamos en colaboración con instituciones financieras confiables para ofrecerte soluciones personalizadas.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Ver más</a>
+        </section>
+      </div>
+      <!-- Seguridad y Confianza -->
+      <div class="col-lg-4 d-flex">
+        <section>
+          <h2>Compras en línea con total seguridad</h2>
+          <img src="img/security.jpg" alt="Financiamiento">
+          <p>Nuestra plataforma sigue rigurosos protocolos de seguridad para garantizar la protección de tus datos personales y financieros. Implementamos tecnologías de encriptación y seguimos estándares de seguridad reconocidos, como el protocolo HTTPS, para proporcionarte tranquilidad y confianza al realizar tu compra.
+        </section>
+      </div>
+    </div>
+</div>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="container">
+      <p class="text-center">Todos los derechos reservados &copy; iTec Río Cuarto</p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
