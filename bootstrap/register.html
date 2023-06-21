@@ -3,78 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R4 Autos</title>
+  <title>R4 Automóviles</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- agregar hojas de estilo -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-utilities.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- Menú horizontal -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-          <!-- Logo -->
-          <div class="row">
-              <div class="col-4">
-                  <a class="navbar-brand"  href="index.html"><img src="images/logo/logo_mini.png"/></a>
-              </div>
-              <div class="col-8">
-                  <!-- Contenido del menú -->
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav justify-content-end">
-                          <li class="nav-item">
-                              <a class="nav-link" href="vehiculos.html">Vehículos</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Financiación</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Posventa</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="empresa.html">Contacto</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="login.html">Iniciar sesión</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
+    <header class="bg-primary">
+        <!-- MENU -->
+        <div class="container">
+            <div class="row">
+                <!-- LOGO -->
+                <div class="col-md-4">
+                    <a class="navbar-brand navbar-expand-lg navbar-light " href="index.html"><img src="images/logo/logo_mini.png" /></a>
+                </div>
+                <!-- OPCIONES -->
+                <div class="col-md-8">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="vehiculos.html">Vehículos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Financiación</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Posventa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="empresa.html">Empresa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Ingresar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="mb-5">
+      <div class="event_info d-flex justify-content-center">
+        <img src="images/logo/logo_2.png" alt="">
       </div>
-  </nav>
-</header>
+  
+      <div class="row">
+        <div class="col-2 offset-5">
+            <div class="form-group">
+                <label for="E-Mail">Ingrese su E-Mail:</label>
+                <input type="text" id="E-Mail" name="E-Mail" class="form-control col-4" placeholder="Ingrese aquí su E-Mail">
+            </div>
+            <div class="form-group">
+                <label for="Contraseña">Ingrese su contraseña:</label>
+                <input type="password" id="Contraseña" name="Contraseña" class="form-control col-4" placeholder="Ingrese aquí su contraseña">
+            </div>
+            <div class="form-group">
+              <label for="Contraseña">Vuelva a ingresar su contraseña:</label>
+              <input type="password" id="Contraseña" name="Contraseña" class="form-control col-4" placeholder="Ingrese aquí su contraseña">
+          </div>
 
-  <main>
-    <div class="event_info">
-      <img src="images/logo/logo_2.png" alt="">
-    </div>
-
-    <div class="register-form">
-      <form action="registro.php" method="post">
-        <div class="form-group">
-          <label for="nombre">Ingrese su nombre: </label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ingrese aqui su nombre de usuario">
+            <div class="register_buttom buttom d-flex justify-content-center">
+                <a href="#" class="btn btn-secondary">Registrarse</a>
+            </div>
         </div>
-
-        <div class="form-group">
-          <label for="E-Mail">E-Mail: </label>
-          <input type="text" id="E-Mail" name="E-Mail" placeholder="Proporcione aqui su E-Mail">
+      </div>
+    </main>
+            <!-- Footer -->
+        <footer
+                class="text-center text-lg-start text-white mt-5"
+                style="background-color: #1c2331"
+                >
+        <!-- seccion redes sociales -->
+        <section
+                class="d-flex justify-content-between p-4"
+                style="background-color: #6351ce"
+                >
+            <!-- izquierda -->
+            <div class="justify-content-center">
+                <span>Mantente conectado con nosotros mediante nuestras redes sociales:</span>
+            </div>
+            <!-- izquierda -->
+    
+            <!-- derecha -->
+            <div>
+                <a href="" class="text-white me-4">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fa fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            
+            </div>
+            <!-- derecha -->
+        </section>
+        <!-- seccion redes sociales -->
+    
+        <!-- seccion links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- contenido -->
+                <h6 class="text-uppercase fw-bold">R4 Automoviles</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                    Con casi una decada en el rubro, R4 Automoviles 
+                    busca ofrecer un servicio de excelencia 
+                    en ventas de Automóviles. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Redes Sociales</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                    <a href="#!" class="text-white">Facebook</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-white">Instagram</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-white">Twitter</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-white">Linkedin</a>
+                </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contacto</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p><a href="https://goo.gl/maps/8ZpVFQujfmPyLD6p7" class="text-white me-4">
+                    <i class="fa fa-home mr-3"></i></a>Constitución 716, X5800 Río Cuarto, Córdoba</p>
+                <p><i class="fa fa-envelope mr-3"></i> info@R4automoviles.com</p>
+                <p><i class="fa fa-phone mr-3"></i> +54 0358 4643036</p>
+                <p><i class="fa fa-print mr-3"></i> +54 0358 4643037</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+            </div>
+        </section>
+        <!-- seccion links  -->
+    
+        <!-- Copyright -->
+        <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+            © Derechos de autor 2023. Todos los derechos reservados a R4 automoviles:
+            <a class="text-white" href="index.html"
+            >r4automoviles.com</a
+            >
         </div>
-        
-        <div class="form-group">
-          <label for="Contraseña">Ingrese su contraseña:</label>
-          <input type="text" id="Contraseña" name="Contraseña" placeholder="Ingrese aqui su contraseña">
-        </div>
-
-        <div class="form-group">
-          <label for="Contraseña">Vuelva a ingresar su contraseña:</label>
-          <input type="text" id="Contraseña" name="Contraseña" placeholder="Veulva a ingresar aqui su contraseña">
-        </div>
-
-        <div class="buttom">
-          <input type="submit" value="Registrarse">
-        </div>
-      </form>
-    </div>
-  </main>
+        <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
