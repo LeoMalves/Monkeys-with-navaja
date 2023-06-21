@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R4 Autos</title>
+  <title>R4 Automóviles</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- agregar hojas de estilo -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <!-- Menú horizontal -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+    
+      <div class="container ">
           <!-- Logo -->
           <div class="row">
               <div class="col-4">
@@ -18,7 +19,7 @@
               </div>
               <div class="col-8">
                   <!-- Contenido del menú -->
-                  <div class="collapse navbar-collapse" id="navbarNav">
+                  <div class="collapse navbar-collapse  " id="navbarNav">
                       <ul class="navbar-nav justify-content-end">
                           <li class="nav-item">
                               <a class="nav-link" href="vehiculos.html">Vehículos</a>
@@ -33,7 +34,7 @@
                               <a class="nav-link" href="empresa.html">Empresa</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="login.html">Iniciar sesión</a>
+                              <a class="nav-link" href="login.html">Ingresar</a>
                           </li>
                       </ul>
                   </div>
@@ -43,16 +44,32 @@
   </nav>
 </header>
 <main>
-    <div class="grilla_tipo_vehiculos">
+    <div class="row">
 
-        <div class="sedan"><a href="sedan.html"><img src="images/models/sedan.png" alt=""></a></div>
-        <div class="hatch"><a href="hatch-back.html"><img src="#" alt="4444"></a></div>
-        <div class="suv"><a href="suv.html"><img src="#" alt="rrr"></a></div>
-        <div class="pick-up"><a href="pick-up.html"><img src="#" alt="asdsa"></a></div>
-        <div class="utilitarios"><a href="utilitarios.html"><img src="#" alt="hyhy"></a></div>
+        <div class="col-md-4 order-1">
+            <h2 class="title_tipo_vehiculo">Sedan</h2>
+            <a href="sedan.html"><img src="images/models/sedan.png" alt=""></a>
+        </div>
+        <div class="col-md-4 order-2">
+            <h2 class="title_tipo_vehiculo">Hatch</h2>
+            <a href="hatch-back.html"><img src="#" alt="4444"></a>
+        </div>
+        <div class="col-md-4 order-3">
+            <h2 class="title_tipo_vehiculo">Suv</h2>
+            <a href="suv.html"><img src="#" alt="rrr">
+            </a></div>
+        <div class="col-md-4 order-4">
+            <h2 class="title_tipo_vehiculo">Piuck Up</h2>
+            <a href="pick-up.html"><img src="#" alt="asdsa"></a>
+        </div>
+        <div class="col-md-4 order-5">
+            <h2 class="title_tipo_vehiculo">Utilitarios</h2>
+            <a href="utilitarios.html"><img src="#" alt="hyhy"></a>
+        </div>
         
 
     </div>
   </main>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
