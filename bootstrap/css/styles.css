@@ -1,25 +1,6 @@
 /* styles.css */
 
-.carousel-item img {
-    margin: 10px;
-  }
-  
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(100%);
-  }
-
-img {
-    max-width: 100%;
-    height: auto;
-  }
-
-.navbar-brand {
-   margin-right: auto;
- }
-
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
+.container .custom-img {
+  max-width: 100%;
+  height: auto;
 }
