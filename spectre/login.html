@@ -7,71 +7,64 @@
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <style>
-    .center-content {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-  </style>
 </head>
 <body>
     <header>
         <!-- Menú horizontal -->
-        <nav class="navbar" style="margin-bottom: 20px;">
-            <a class="navbar-brand logo-container" href="#">
-                <img src="img/logo/logo_mini.png" alt="Logo" class="logo">
-            </a>
-            <div class="navbar-menu-container">
-                <ul class="navbar-menu">
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="vehiculos.html">Vehículos</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="consulta.html">Consultas</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="empresa.html">Empresa</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="login.html">Ingresar</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo/logo_mini.png" alt="Logo" class="logo">
+          </a>
+          <div class="navbar-menu-container">
+            <ul class="navbar-menu">
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Vehículos</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Consultas</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Empresa</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Ingresar</a>
+            </ul>
+          </div>
         </nav>
-    </header>
-       
-    <main>
-        <div class="container mt-5 center-content">
-          <div class="columns">
-            <div class="column col-12">
-              <div class="text-center mt-30">
-                <h2 class="title_tipo_vehiculo">Fiat Cronos</h2>
-              </div>
-            </div>
-          </div>
-          <div class="columns my-5">
-            <div class="column col-6">
-              <div class="img-container">
-                <img src="img/models/sedan/fiat_cronos/fiat_cronos_main.png" alt="" class="img-responsive img-fit">
-              </div>
-            </div>
-            <div class="column col-6">
-              <div class="img-container">
-                <img src="img/models/sedan/fiat_cronos/fiat_cronos_interior.jpg" alt="" class="img-responsive img-fit">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="register_buttom text-center" style="margin: 20px;">
-          <a href="consulta.html" class="btn btn-secondary">Consulta</a>
-        </div>
-    </main>
+      </header>
       
-  
-  
-  
+
+      <main>
+        <div class="event_info text-center">
+          <img src="img/logo/logo_2.png" alt="" class="mx-auto">
+        </div>
+      
+        <div class="row">
+          <div class="col-2 col-mx-auto">
+            <div class="form-group">
+              <label for="E-Mail">E-Mail:</label>
+              <input type="text" id="E-Mail" name="E-Mail" class="form-input" placeholder="Ingrese aquí su E-Mail">
+            </div>
+            <div class="form-group">
+              <label for="Contraseña">Contraseña:</label>
+              <input type="password" id="Contraseña" name="Contraseña" class="form-input" placeholder="Ingrese aquí su contraseña">
+            </div>
+            <div class="buttom text-center" style="margin-top: 20px;">
+              <input type="submit" value="Ingresar" class="btn btn-primary">
+            </div>
+            <div class="register_buttom text-center" style="margin: 20px;">
+              <a href="recuperar.html" class="btn btn-secondary">Recuperar</a>
+            </div>
+            <div class="register_buttom text-center" style="margin: 0px 0px 80px">
+              <a href="register.html" class="btn btn-secondary">Registrarse</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      
+      
+      
 
     <footer class="text-center text-lg-start text-white" style="background-color: #1c2331;">
         <div style="height: 30px; background-color: #7c4dff; display: flex; align-items: center; justify-content: left;">
