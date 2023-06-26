@@ -1,7 +1,34 @@
-/* Estilos para menú */
-.navbar {
+/* styles.css */
+/* Estilos para el encabezado y el menú */
+header {
+    background-color: #fff;
+    padding: 0px;
+    color: #fff;
+  }
+
+  .logo-container {
+    position: absolute;
+    left: 17%;
+    transform: translateX(-50%);
+  }
+  body {
+    overflow-x: hidden;
+  }
+  /* Estilos para menú */
+
+
+  .container {
+    max-width: 80%; /* Ajusta el porcentaje deseado */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  .navbar {
     display: flex;
     align-items: center;
+    background-color: #007bff;
+    color: white
   }
   
   .navbar-brand {
@@ -9,6 +36,12 @@
     align-items: center;
   }
   
+  .navbar .navbar-link,
+  .navbar .navbar-item {
+    color: black;
+  }
+  
+
   .navbar-menu-container {
     flex-grow: 1;
     display: flex;
@@ -25,31 +58,78 @@
   .navbar-item {
     margin: 0 1rem;
   }
-
-/* Estilos para el footer */
-footer {
+  
+/* Estilos para el texto de derechos de autor en el footer */
+footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+/* Estilos para el texto de derechos de autor en el footer */
+footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+    /* Estilos del contenido principal */
+    .main-content {
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  
+  /* Estilos del footer */
+  .footer {
     background-color: #1c2331;
     color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
   }
   
-  /* Estilos para la sección de redes sociales en el footer */
-  section.p-4 {
-    background-color: #6351ce;
+  .footer-top {
+    background-color: #7c4dff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
   }
   
-  /* Estilos para los enlaces en el footer */
-  footer a {
+  .footer-social {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social a {
     color: #fff;
+    margin-right: 10px;
   }
   
-  /* Estilos para los enlaces resaltados en el footer */
-  footer a.text-white {
-    color: #fff;
+  .footer-columns {
+    display: flex;
+    justify-content: center;
   }
   
-  /* Estilos para el texto de derechos de autor en el footer */
-  footer .text-center {
+  .footer-column {
+    margin: 0 15px;
+  }
+  
+  .footer-column h6 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .footer-column hr {
+    background-color: #7c4dff;
+    height: 2px;
+    border: none;
+    margin: 0 auto 10px;
+    width: 60px;
+  }
+  
+  .footer-column p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-copyright {
     background-color: rgba(0, 0, 0, 0.2);
-  }
+    padding: 10px;
+}
