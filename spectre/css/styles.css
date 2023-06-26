@@ -1,0 +1,55 @@
+/* Estilos para menú */
+.navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar-item {
+    margin: 0 1rem;
+  }
+
+/* Estilos para el footer */
+footer {
+    background-color: #1c2331;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para la sección de redes sociales en el footer */
+  section.p-4 {
+    background-color: #6351ce;
+  }
+  
+  /* Estilos para los enlaces en el footer */
+  footer a {
+    color: #fff;
+  }
+  
+  /* Estilos para los enlaces resaltados en el footer */
+  footer a.text-white {
+    color: #fff;
+  }
+  
+  /* Estilos para el texto de derechos de autor en el footer */
+  footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
