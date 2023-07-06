@@ -24,3 +24,14 @@ R4 Autos is an ongoing academic project aimed at developing a web page for the s
 ## About
 
 This web page is an academic project created by students of iTec Rio Cuarto Institute of Technology. It serves the purpose of learning and does not intend to be used for commercial purposes. All rights reserved.
+
+## How to clone this repository
+
+To clone this repository on your own computer, follow these steps:
+
+1. Open your terminal or command line.
+2. Navigate to the directory where you want to clone the repository.
+3. Execute the following command to clone the repository: `git clone https://github.com/LeoMalves/Monkeys-with-navaja.git`
+4. Wait for the cloning process to complete.
+
+Once the command is complete, you will have a local copy of the repository on your computer.
