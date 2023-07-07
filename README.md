@@ -14,12 +14,8 @@ R4 Autos is an ongoing academic project aimed at developing a web page for the s
 ## Features
 
 - Selection of different brand new car models.
-- Access to a database of various automotive companies.
-- Customization of features such as range, engine, color, wheels, etc.
-- Display of details and specifications for each car model.
-- Real-time price quoting for customized cars.
-- Shopping cart functionality for adding and managing cars.
-- Secure checkout process and purchase confirmation.
+- Display images of each car model.
+
 
 ## About
 
